@@ -4,4 +4,12 @@
 # a=6
 # print(a is a)
 
-print(round(564,-4))
+# print(round(564,-4))
+
+name=('sam')
+def display():
+    global name
+    name=name+' charles'
+print(name)
+display()
+print(name)
